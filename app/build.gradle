@@ -1,0 +1,5 @@
+plugins { id "com.android.application" }
+android { namespace "jp.yanone.plannermemo"; compileSdk 35
+ defaultConfig { applicationId "jp.yanone.plannermemo"; minSdk 26; targetSdk 35; versionCode 3; versionName "0.3" }
+ compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}
