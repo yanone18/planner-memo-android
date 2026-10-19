@@ -12,8 +12,6 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
-      - name: Extract Android project
-        run: unzip -o android-source.zip
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
